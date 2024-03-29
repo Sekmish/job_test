@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Автоматизация браузера</title>
+</head>
+<body>
+    <h1>Автоматизация браузера</h1>
+    <form action="{% url 'start' %}" method="POST">
+        {% csrf_token %}
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Начать</button>
+    </form>
+</body>
+</html>

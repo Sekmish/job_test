@@ -1,0 +1,2 @@
+from anticaptchaofficial.geetestproxyless import RecaptchaV3TaskProxyless
+print("Import successful")
